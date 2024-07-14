@@ -1,0 +1,483 @@
+font-face{
+    font-family: monteserral-Regular;
+    src: url(C:\xampp\htdocs\fonts\fonts);
+}
+/* .back{
+    background-image: url(/htdocs/Student-Corner/image/Remove\ background\ project.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+} */
+.feed-des{
+ margin-top: 45px;
+ justify-content: center;
+ width: 50%;
+    height: fit-content;
+    background-color: #ddd;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius:25px ;
+    
+
+   
+}
+
+/* .feed-des form{
+    width: 100%;
+} */
+.col-sub{
+    margin-top: 200px;
+    border-left: 2px solid black;
+}
+.box{
+    width: 100%;
+    height: 700px;
+}
+.card-body{
+
+    margin-bottom: 2px;
+    border: none;
+    padding: 2px;
+
+}
+/* list css goes here */
+
+.ordered li,ol{
+    line-height: 3rem;
+    font-weight: bold;
+    text-wrap:nowrap ;
+}
+.row{
+   
+}
+.product-row {
+    padding: 10px;
+    
+}
+
+#feedback{
+    opacity: 0.70;
+}
+body{
+   
+   background-repeat: no-repeat;
+background-size: contain;
+   
+}
+.back-img{
+    background-image: url(image/contactus.jpg);
+    border-radius: 20px;
+   background-size:cover;
+   
+   background-color: rgba(0, 0, 0, 0.445);
+   
+  
+
+    
+   
+}
+.feed{
+   
+  
+    margin-left: 70px;
+   justify-content: left; 
+}
+.box{
+  
+    opacity: 0.85;
+}
+.coloring{
+    float: left;
+    text-align: left; 
+}
+
+.coloring img{
+    top: 10px;
+    position: relative;
+}
+.row-design{
+    padding-left: 15px;
+   
+}
+.ab {
+    position: absolute;
+    position: sticky;
+   
+    height: 60px;
+    opacity: 1;
+    top:0;
+    background-color: burlywood;
+    
+       
+
+}
+ .cbutton button{
+   border: none;
+   margin-bottom: 5px;
+   padding: 5px;
+   background-color: #f38122;
+   color: #000000;
+   color: #000000;
+   font-family: 'Times New Roman', Times, serif;
+   
+    
+}
+.cbutton button:hover{
+    background-color: darkgrey;
+    width: 900px;
+    color: #000000;
+
+  
+}
+.ab:active{
+    letter-spacing: 0.3px;
+    color: #282F44;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 12px;
+    filter: drop-shadow(0px 5px 15px rgba(152, 179, 223, 0.2));
+    background-color: #ffffff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 5px;
+
+}
+.ContactUs{
+   
+}
+.myimage{
+    float: inline-end;
+   
+}
+.tv-container {
+    position: relative;
+    width: 600px; /* Adjust as necessary */
+    height: 400px; /* Adjust as necessary */
+}
+.tv-image {
+    width: 100%;
+    height: auto;
+}
+.tv-iframe {
+    position: absolute;
+    top: 6%; /* Adjust to fit the screen */
+    left: 10%; /* Adjust to fit the screen */
+    width: 80%; /* Adjust to fit the screen */
+    height: 320px; /* Adjust to fit the screen */
+    border: none; /* Removes the default iframe border */
+}
+.call1 {
+   
+   
+   
+   float: left;
+ background-color: #282F44;
+   color: white;
+   font-size: larger;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.call2 {
+ background-color: gray;
+  float: left;
+  color: white;
+
+ font-size: larger;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.call1, .call2{
+   border: 1px ;
+    padding-right: 190px;
+    padding-left: 190px;
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
+
+   
+
+    
+   
+}
+.new{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-items button{
+   margin: 5px;
+   border: none;
+    
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+    
+}
+
+.col-sm-2{
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 130px;
+    
+}
+.active:hover{
+    border: 1px solid black;
+    background-color: wheat;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+   font-weight: 700;
+}
+
+
+.a{
+ 
+
+   float: left;
+   margin :2px;
+    width: 75px;
+   text-align: center;
+   justify-content: center;
+   vertical-align:middle;
+    color: white;
+border: 1px solid white;
+border-radius: 15px;
+background-color: rgb(255, 30, 83);
+}
+.a:hover{
+    background-color: rgb(0, 0, 0);
+}
+.body-styling{
+  
+    background-color: #08b8e9d4;
+}
+/* .card-mod{
+
+} */
+.custom-row{
+    height: 470px;
+    background-color: #ffffff;
+}
+.product-item {
+    
+    text-align: center;
+    flex: 1 1 calc(25% - 15px); /* Each card takes up approximately 25% of the row, with spacing */
+    /* Background color for cards */
+    border: 1px solid #ddd; /* Border around each product */
+    border-radius: 5px; /* Rounded corners */
+   
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: shadow effect */
+}
+.product-item img {
+    width:100%;
+    height: auto;
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+.product-item a {
+    display: block;
+    margin-top: 10px;
+}
+.product-container {
+    display: flex;
+    flex-wrap: nowrap;
+   
+    gap: 90px; /* Spacing between the product items */
+
+}
+.btn{
+    background-color: rgb(252, 251, 251);
+    color: rgb(0, 0, 0);
+    
+    
+   
+}
+.branch button{
+    text-wrap: balance;
+    margin: 20px;
+    line-height: 1.3;
+    height: 60px;
+    width: 100px;
+    border-radius: 15px;
+    border-color: white;
+    border-left: 3px solid rgb(5, 179, 248);
+    
+}
+.branch button:hover{
+    background-color: tomato;
+   font-weight: bold;
+    font-size: large;
+}
+.about-items{
+    
+    text-align: center;
+    /* flex: 1 1 calc(25% - 15px);  */
+    /* Each card takes up approximately 25% of the row, with spacing */
+    /* Background color for cards */
+   
+    border-radius: 5px; /* Rounded corners */
+   height: 500px;
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1);  */
+    /* Optional: shadow effect */
+}
+.text-center{
+    text-wrap: nowrap;
+}
+.branch{
+    scroll-behavior: auto;
+   
+}
+.about-items button{
+    margin: 5px;
+    background-color: rgb(6, 232, 248);
+    color: white;
+    border-radius: 15px;
+    
+    border-left: 5px rgb(0, 195, 255);
+}
+
+.card-img-top{
+    height: 270px;
+}
+.cd{
+    position: absolute;
+    position: sticky;
+    height: 90px;
+    opacity: 1;
+    top:0;
+}
+.about-items img{
+     width:100%;
+    height: 400px;
+    margin-left:25px;
+    border-radius: 5px; /* Optional: Rounded corners */
+   
+}
+ .pre-scrollable {
+    max-height: 400px;
+    overflow-y:auto;
+}
+.about-items a{
+    display: block;
+    margin-top: 10px;
+}
+
+
+.h4 {
+   font-family: cursive;
+   padding-left: 3px solid green;
+    font-size: x-large;
+    /* background-color: #f38122; */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 35px;
+    position: absolute;
+    position: sticky;
+    padding-left: 60px;
+
+}
+*,::after ::before{
+    box-sizing: content-box; 
+   
+}
+/* slider css */
+.main-slider {
+    position: relative;
+}
+.slider-img {
+    position: relative;
+}
+.slider-img img {
+    width: 100%;
+    height: 750px;
+}
+
+.slider-text {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+#slide {
+    text-align: center;
+    padding: 25px;
+}
+.textside {
+    margin-left: 0;
+    margin-right: 0;
+    display: initial;
+}
+footer{
+    /* -webkit-text-stroke: 0.5px #000; */
+    
+    display: flex;
+    
+    bottom: 0;
+    color: #000000;
+    font-weight: bold;
+    line-height: 70px;
+     font-family: "Open Sans",Sans-serif;
+    letter-spacing: 1px;
+}
+
+/* slider css part2 */
+.content h1 {
+    z-index: 1;
+   font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: unset;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 42px;
+}
+.more_btn {
+    background: #f38122;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 13px 40px;
+    display: inline-block;
+    margin: 40px 0 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px #602c199c;
+    transition: 0.5s;
+    animation-delay: 1s;
+    animation-duration: 1s;
+     font-family: "Open Sans",Sans-serif;
+}
+.bx-wrapper {
+    border: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    background: none;
+}
+.slider-img:before {
+    position: absolute;
+    content: '';
+    background:#303628b8;
+}
+
+.slider-img:before {
+    /* background: #002147 none repeat scroll 0 0; */
+    content: "";
+    height: auto;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* .branch{
+    background-image: url(/htdocs/Student-Corner/image/bulb.jpg);
+    width: 1000px;
+    height: 400px;
+} */
